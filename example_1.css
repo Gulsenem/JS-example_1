@@ -1,0 +1,128 @@
+*{box-sizing: border-box;}
+body
+{
+    
+    margin: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+span
+{
+    background-color: #e2e2e2;
+    
+}
+#boxes
+{
+    position:relative;
+    
+    width: 900px;
+    height: 300px;        
+}
+#boxes #box
+{
+    background-color: hsl(0, 4%, 85%);
+    width: 100%;
+    height: 100%;
+    padding: 50px 30px;
+    border-radius: 10px;
+    display: block;
+    position: absolute;
+}
+#text_box
+{
+    display:flex;
+    align-items: center;
+}
+h2
+{
+    margin: 0 10px;
+}
+#box input
+{
+    border:none;
+    outline:none;
+    font-size: 1.2em;
+    padding: 5px 15px;
+    width: 100px;
+    
+}
+
+#box button
+{
+    position:absolute;
+    bottom: 30px;
+    right: 30px;
+
+    background-color: rgb(8, 8, 8);
+    color:white;
+    font-weight: bolder;
+    padding: 10px;
+    font-size: 1.1em;
+    border-radius: 25px;
+    width: 200px;
+    outline:none;
+    border:none;
+    cursor: pointer;
+}
+#box button:hover
+{
+    background-color: #333232; 
+}
+
+#box1 
+{
+    background-color: hsl(348, 59%, 86%);
+    color:red;
+    width: 100%;
+    height: 100%;
+    padding: 50px 30px;
+    border-radius: 10px;
+    
+    position: absolute;
+    display: none;
+    
+}
+#box2 
+{
+    background-color: rgb(198, 240, 204);
+    width: 100%;
+    height: 100%;
+    padding: 50px 30px;
+    border-radius: 10px;
+    
+    position: absolute;
+    display: none;
+    
+}
+#box1 p, #box2 p
+{font-size: 2em;}
+#box1 a
+{
+    color:red;
+    text-decoration: none;
+}
+#box2 a
+{ 
+    color:green;
+    text-decoration: none;
+}
+#box2 span
+{background-color: inherit;}
+
+body button
+{
+    background-color: #60a571;
+    color:white;
+    font-weight: bolder;
+    padding: 10px 30px;
+    font-size: 1.1em;
+    border-radius: 25px;
+    outline:none;
+    border:none;
+    cursor: pointer;
+    margin-top: 30px;
+    
+}
+body button:hover
+{
+    background-color: #7ace8f;
+}
