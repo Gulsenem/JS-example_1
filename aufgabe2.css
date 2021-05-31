@@ -1,0 +1,37 @@
+*{box-sizing: border-box;}
+body
+{
+    height: 100vh;
+    font-family: 'Segoe UI';
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;    
+    background-color: #b12525;
+}
+
+button
+{
+    padding: 10px;
+    width: 80px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color:white;
+    background-color: #333333;
+    cursor: pointer;
+    outline:none;
+    border:none;
+    margin: 5px 50px;
+}
+button:hover
+{
+    background-color: #131313; 
+}
