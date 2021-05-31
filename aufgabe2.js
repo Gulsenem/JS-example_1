@@ -6,7 +6,7 @@ var is_box_red = true;
 
 box.style.backgroundColor = "#b12525";
 rot_btn.style.backgroundColor = "#131313";
-blau_btn.style.backgroundColor = "#333333";
+blau_btn.style.backgroundColor = "#3f3f3f";
 
 function blau()
 {
@@ -15,7 +15,7 @@ function blau()
         
         box.style.backgroundColor = "blue";
         blau_btn.style.backgroundColor = "#131313";
-        rot_btn.style.backgroundColor = "#333333";
+        rot_btn.style.backgroundColor = "#3f3f3f";
         is_box_red = false;
 
     }
@@ -30,7 +30,7 @@ function rot()
     {
         box.style.backgroundColor = "#b12525";
         rot_btn.style.backgroundColor = "#131313";
-        blau_btn.style.backgroundColor = "#333333";
+        blau_btn.style.backgroundColor = "#3f3f3f";
         is_box_red = true;
         
     }
